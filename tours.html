@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tours | Adventurero</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/tours.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+			integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+<body>
+    <header class="header container">
+			<a href="/" class="container-logo">
+				<img src="img/logo_adventurero.png" alt="Logo" />
+				<span class="logo-text"> Adventurero </span>
+			</a>
+
+			<nav class="nav-links">
+				<ul>
+					<li>
+						<a href="#">Tours</a>
+					</li>
+					<li>
+						<a href="#">Destinos</a>
+					</li>
+					<li>
+						<a href="#">Acerca de</a>
+					</li>
+					<li>
+						<a href="#">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+
+			<ul class="container-sign">
+				<li class="sign-item">
+					<a href="#" class="sign-in">Entrar</a>
+				</li>
+				<li class="sign-item">
+					<a href="#" class="sign-up">Registrarse</a>
+				</li>
+			</ul>
+
+			<button class="btn-bars">
+				<i class="fa-solid fa-bars-staggered"></i>
+			</button>
+
+			<nav class="menu-responsive">
+				<a href="/" class="container-logo-responsive">
+					<img src="img/logo_adventurero.png" alt="Logo" />
+					<span class="logo-text"> Adventurero </span>
+				</a>
+
+				<ul>
+					<li>
+						<a href="#">Tours</a>
+					</li>
+					<li>
+						<a href="#">Destinos</a>
+					</li>
+					<li>
+						<a href="#">Acerca de</a>
+					</li>
+					<li>
+						<a href="#">Contacto</a>
+					</li>
+					<li>
+						<a href="#" class="sign-in">Entrar</a>
+					</li>
+					<li>
+						<a href="#" class="sign-up">Registrarse</a>
+					</li>
+				</ul>
+
+				<button class="btn-close">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+			</nav>
+		</header>
+
+        <section class="background-hero-banner">
+			<div class="container container-hero-banner">
+				<div class="column-1">
+					<h1>Elige tu paquete de viaje favorito</h1>
+
+					<p>
+						Explora nuestras increíbles ofertas de destinos con una
+						lista completa que incluye todos los lugares maravillosos
+						que puedes visitar.
+					</p>
+                </div>
+                <div class="column-2 container-form">
+                    <form action="#" class="form">
+                        <h3 class="tittle">
+                            <span class="icon">🔶</span> Buscar paquetes
+                        </h3>
+
+                        <div class="form-group">
+                            <select name="destination" id="destination">
+                                <option value="">Destino</option>
+                                <option value="ucrania">Ucrania</option>
+                                <option value="kazajistan">Kazajistán</option>
+                                <option value="turkmenistan">Turkmenistán</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select name="guest" id="guest">
+                                <option value="">Invitados</option>
+                                <option value="1">1 Huésped</option>
+                                <option value="2">2 Huésped</option>
+                                <option value="3">3 Huésped</option>
+                                <option value="4">4 o más</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="check-in">Fecha de salida</label>
+                            <input type="date" name="check-in" id="check-in"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="check-out">Fecha de llegada</label>
+                            <input type="date" name="check-out" id="check-out"/>
+                        </div>
+
+                        <button type="submit" class="btn-search">
+                            Buscar ahora
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <main class="container">
+            <section class="main-tours">
+                <!-- RESPONSIVE: SELECT PARA ESCOGER FILTROS -->
+
+
+                <!-- CONTENEDOR DE FILTROS -->
+                <div class="container-filters">
+                    <div class="container-filter">
+                        <h3>
+                            <span class="icon">🔶</span>
+                            Ubicación
+                        </h3>
+                        <div class="filter-group">
+                            <span>Asia</span>
+                            <div class="filter-checkbox-group">
+                                <input type="checkbox" id="india" name="india"/>
+                                <label for="india">India</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+			<div class="container footer-content">
+				<div class="columns-footer">
+					<div class="column">
+						<a href="/" class="container-logo">
+							<img src="img/logo_adventurero.png" alt="Logo" />
+							<span class="logo-text"> Adventurero </span>
+						</a>
+
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit. Ea earum eaque soluta eveniet aliquid provident
+							obcaecati odit? Natus, numquam nostrum.
+						</p>
+
+						<div class="container-social-links">
+							<span>Síguenos: </span>
+							<div class="links">
+								<a href="#">
+									<i class="fab fa-facebook"></i>
+								</a>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="column">
+						<span> Sobre Nosotros </span>
+
+						<ul>
+							<li>
+								<a href="#">Nuestra Historia</a>
+							</li>
+							<li>
+								<a href="#">Blog Viajes y consejos</a>
+							</li>
+							<li>
+								<a href="#">Trabaja con nosotros</a>
+							</li>
+							<li>
+								<a href="#">Términos y condiciones</a>
+							</li>
+							<li>
+								<a href="#">Preguntas Frecuentes</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="column">
+						<span>Soporte</span>
+
+						<ul>
+							<li>
+								<a href="#">Soporte al cliente</a>
+							</li>
+							<li>
+								<a href="#">Políticas de privacidad</a>
+							</li>
+							<li>
+								<a href="#">Contáctanos</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="column">
+						<span> Paga de forma segura con nosotros </span>
+
+						<p>
+							El pago es encriptado y transmitido de forma segura con
+							el protocolo SSL.
+						</p>
+
+						<div class="container-payment-methods">
+							<img
+								src="img/payment-methods.png"
+								alt="Métodos de Pago"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<p class="copyright">
+					&copy; 2024 Adventurero | Desarrollado por Roberto Andrade
+				</p>
+			</div>
+		</footer>
+        <script src="js/global.js"></script>
+    </body>
+</html>
